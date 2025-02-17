@@ -3,16 +3,6 @@
 import pandas as pd
 import re
 
-def has_no_letters(s):
-    return not re.search("[a-zA-Z]", s)
-
-def has_numbers(s):
-    if type(s) != str:
-        return True
-    if re.search("[0-9]", s):
-        return True
-    return False
-
 passList = []
 engWordList = []
 numAndWordList = []
